@@ -3,7 +3,7 @@ class Solution:
         acc = 0
         for item in arr2:
             acc ^= item
-        ret=0
+        ret = 0
         for item in arr1:
             ret ^= (item & acc)
         return ret
